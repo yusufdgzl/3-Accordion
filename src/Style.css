@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(to left,#005aa7,#fffde4)
+}
+
+.list {
+    background-color: #a86897;
+    width: 800px;
+    height: auto;
+    margin: 100px auto;
+    /* text-align: center; */
+    border: inset;
+}
+
+.list-item {
+/* background-color: rgb(106, 74, 74); */
+width: 700px;
+margin:30px auto;
+
+}
+
+.infos {
+    padding:25px;
+    border: inset;
+    margin-top: 20px;
+    background: linear-gradient(to left,#005aa7,#fffde4);    
+    
+}
+
+h1 {
+    background: -webkit-linear-gradient(#005aa7,#fffde4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   font-size: 50px;
+   text-align: center;
+}
+
+.plusButton {
+    font-size: 23px;
+    margin-left: 10px;
+    height: 29px;
+    border-radius: 15px;
+    width: 29px;
+}
+
+.plusButton:hover {
+    height:31px;
+    width: 32px;
+    background-color: #a86897;
+}
+
+.img {
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.deleteButton {
+    width: 60px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 15px; 
+}
+
+.deleteButton:hover{
+    background-color: #cd1515;
+}
+
+h3 {
+    text-align: center;
+}
+
+.allClearButton{
+    display: flex;
+    background-color: #98c5ed;
+    margin: 20px auto;
+    height: 30px;
+    width: 65px;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.allClearButton:hover {
+    box-shadow: 2px 2px;
+    width: 70px;
+    height: 35px;
+    background-color: #be4ca0;
+    
+}
